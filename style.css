@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#input-txt {
+  width: 100%;
+  border-radius: 0.4rem;
+  border: 1px solid rgb(138, 133, 133);
+}
+
+.btn-translate {
+  margin: 0 auto;
+  font-size: medium;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  border: none;
+  background-color: blueviolet;
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn-translate:hover {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  border: none;
+  background-color: rgb(94, 0, 182);
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.translated-morse {
+  border: 1px solid rgb(138, 133, 133);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  height: 10rem;
+  width: 100%;
+}
