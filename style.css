@@ -1,5 +1,22 @@
+:root {
+  --primary-color: #3b82f6;
+  --gray: #525252;
+  --light-gray: #f9fafb;
+}
+
 body {
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 1.5rem 0rem;
+  background-color: var(--primary-color);
+  color: white;
+  width: 100%;
 }
 
 .container {
@@ -20,7 +37,7 @@ body {
   border-radius: 2rem;
   color: white;
   border: none;
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   display: block;
   margin-top: 1rem;
   cursor: pointer;
@@ -43,4 +60,23 @@ body {
   margin-top: 1rem;
   height: 10rem;
   width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-color);
+}
+
+.footer-header {
+  color: white;
+  text-align: center;
+}
+.footer-desc {
+  padding-bottom: 2rem;
+  color: white;
+  font-size: large;
+  text-align: center;
 }
